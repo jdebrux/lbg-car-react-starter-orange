@@ -11,7 +11,7 @@ pipeline {
                 steps {
                     // Get some code from a GitHub repository
 
-                    git branch: 'main', url: 'https://github.com/jdebrux/lbg-car-spring-app-starter-orange.git'
+                    git branch: 'main', url: 'https://github.com/jdebrux/lbg-car-react-starter-orange.git'
                 }
             }
             stage('Compile') {
