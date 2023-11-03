@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  calc-api:
+    image: jdebrux/lbg-car-spring
+    build: ./src
+    ports:
+      - target: 80
+        published: 80
